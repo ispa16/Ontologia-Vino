@@ -1,7 +1,6 @@
 <body>
 <div class="container">
 <div class="head">
-<div style="float:right">language <a href="index-en.html"><b>en</b></a> <a href="index-fr.html"><b>fr</b></a> <a href="index-es.html"><b>es</b></a> </div>
 
 
 <dl>
@@ -15,16 +14,20 @@
 </div>
 <div class="status">
 <div>
-<span>Ontology Specification Draft</span>
+<span>Especificacion de Ontologia</span>
 </div>
 </div>     <div id="abstract"><h2>S&iacute;ntesis</h2><span class="markdown">
-Este es el lugar donde escribir un resumen de la ontolog&iacute;a. Un par de frases bastan para resumir su prop&oacute;sito.</span>
+El propósito de esta ontología es dar a conocer las diferentes combinaciones que existen entre los vinos y las comidas para poder disfrutar de una mejor manera estas mismas.</span>
 </div>
 <div id="toc"></div> 
 
 <!--INTRODUCTION SECTION-->
-    <div id="introduction"><h2 id="intro" class="list">Introducci&oacute;n <span class="backlink"> volver a <a href="#toc">&iacute;ndice</a></span></h2>
-<span class="markdown">Este p&aacute;rrafo deber&iacute;a hablar sobre la ontolog&iacute;a, motivaci&oacute;n estado del arte y objetivos</span>
+<h3 id="ns" class="list">Introducci&oacute;n de namespaces</h3>   
+<span class="markdown">Este vocabulario representa la información de vinos y comidas, lo cual comprende los distintos tipos de vino y excluye otro tipo de bebidas.
+
+Por tanto se define el alcance de este vocabulario en:
+
+vino, uva, bodega, ubicación, color, cuerpo, sabor y contenido de azúcar de un vino; diferentes tipos de alimentos, como pescado y carne roja; subtipos de vino como el vino blanco.</span>
 <div id="namespacedeclarations">
 <h3 id="ns" class="list">Declaraci&oacute;n de namespaces</h3>
 <div id="ns" align="center">
@@ -50,7 +53,8 @@ Este es el lugar donde escribir un resumen de la ontolog&iacute;a. Un par de fra
   
 
 <!--OVERVIEW SECTION-->
-    <div id="overview"><h2 id="overv" class="list">Vino: Resumen <span class="backlink"> volver a <a href="#toc">&iacute;ndice</a></span></h2>
+   
+ <h3 id="ns" class="list">Vino: Resumen </h3>   
 <span class="markdown">La ontolog&iacute;a se compone de las siguientes clases y propiedades:</span>
 <h4>Propiedades usadas para anotaci&oacute;n</h4><ul xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" class="hlist">
    <li>
@@ -88,19 +92,18 @@ Este es el lugar donde escribir un resumen de la ontolog&iacute;a. Un par de fra
          <span>region</span>
       </a>
    </li>
-</ul><iframe align="center" width="100%" height ="500px" src="webvowl/index.html"></iframe> 
 </div>
   
 
 <!--DESCRIPTION SECTION-->
-    <div id="description"><h2 id="desc" class="list">Vino: Descripci&oacute;n <span class="backlink"> volver a <a href="#toc">&iacute;ndice</a></span></h2>
+<div id="description"><h2 id="desc" class="list">Vino: Descripci&oacute;n </h2>
 <span class="markdown">Descripci&oacute;n completa de la ontolog&iacute;a: en caso de ser posible, a&ntilde;adir un diagrama explicando c&oacute;omo las clases est&aacute;n relacionadas, ejemplos de uso, etc.</span>
 
 </div>
    
 
 <!--CROSSREF SECTION-->
-   <div id="crossref"><h2 id="crossreference" class="list">T&eacute;rminos de Vino para clases, propiedades de objeto y propiedades de datos <span class="backlink"> volver a <a href="#toc">&iacute;ndice</a></span></h2>
+   <div id="crossref"><h2 id="crossreference" class="list">T&eacute;rminos de Vino para clases, propiedades de objeto y propiedades de datos </h2>
 Esta secci&oacute;n introduce m&aacute;s detalles sobre cada clase y propiedad definida por Vino.
 <div xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
      id="annotationproperties">
@@ -143,63 +146,60 @@ Esta secci&oacute;n introduce m&aacute;s detalles sobre cada clase y propiedad d
       </li>
    </ul>
    <div class="entity" id="http://dbpedia.org/ontology/Country">
-      <h3>country<sup class="type-ap" title="propiedad de anotación">ap</sup>
-         <span class="backlink"> Volver a <a href="#toc">índice</a> o <a href="#annotationproperties">Índice de propiedades de anotación</a>
-         </span>
-      </h3>
-      <p>
-         <strong>IRI:</strong> http://dbpedia.org/ontology/Country</p>
-   </div>
-   <div class="entity" id="http://dbpedia.org/ontology/Grape_List">
-      <h3>grape list<sup class="type-ap" title="propiedad de anotación">ap</sup>
-         <span class="backlink"> Volver a <a href="#toc">índice</a> o <a href="#annotationproperties">Índice de propiedades de anotación</a>
-         </span>
-      </h3>
-      <p>
-         <strong>IRI:</strong> http://dbpedia.org/ontology/Grape_List</p>
-   </div>
-   <div class="entity" id="http://dbpedia.org/ontology/Manufacturer">
-      <h3>manufacturer<sup class="type-ap" title="propiedad de anotación">ap</sup>
-         <span class="backlink"> Volver a <a href="#toc">índice</a> o <a href="#annotationproperties">Índice de propiedades de anotación</a>
-         </span>
-      </h3>
-      <p>
-         <strong>IRI:</strong> http://dbpedia.org/ontology/Manufacturer</p>
-   </div>
-   <div class="entity" id="http://schema.org/name">
-      <h3>name<sup class="type-ap" title="propiedad de anotación">ap</sup>
-         <span class="backlink"> Volver a <a href="#toc">índice</a> o <a href="#annotationproperties">Índice de propiedades de anotación</a>
-         </span>
-      </h3>
-      <p>
-         <strong>IRI:</strong> http://schema.org/name</p>
-   </div>
-   <div class="entity" id="http://sbc.utpl.edu.ec/wines-food-data/price">
-      <h3>price<sup class="type-ap" title="propiedad de anotación">ap</sup>
-         <span class="backlink"> Volver a <a href="#toc">índice</a> o <a href="#annotationproperties">Índice de propiedades de anotación</a>
-         </span>
-      </h3>
-      <p>
-         <strong>IRI:</strong> http://sbc.utpl.edu.ec/wines-food-data/price</p>
-   </div>
-   <div class="entity" id="http://dbpedia.org/ontology/Province">
-      <h3>province<sup class="type-ap" title="propiedad de anotación">ap</sup>
-         <span class="backlink"> Volver a <a href="#toc">índice</a> o <a href="#annotationproperties">Índice de propiedades de anotación</a>
-         </span>
-      </h3>
-      <p>
-         <strong>IRI:</strong> http://dbpedia.org/ontology/Province</p>
-   </div>
-   <div class="entity" id="http://dbpedia.org/ontology/Region">
-      <h3>region<sup class="type-ap" title="propiedad de anotación">ap</sup>
-         <span class="backlink"> Volver a <a href="#toc">índice</a> o <a href="#annotationproperties">Índice de propiedades de anotación</a>
-         </span>
-      </h3>
-      <p>
-         <strong>IRI:</strong> http://dbpedia.org/ontology/Region</p>
-   </div>
+<h3>country<sup class="type-ap" title="propiedad de anotación">ap</sup>
+</span>
+</h3>
+<p>
+<strong>IRI:</strong> http://dbpedia.org/ontology/Country</p>
+</div>
+<div class="entity" id="http://dbpedia.org/ontology/Grape_List">
+<h3>grape list<sup class="type-ap" title="propiedad de anotación">ap</sup>
+
+</span>
+</h3>
+<p>
+<strong>IRI:</strong> http://dbpedia.org/ontology/Grape_List</p>
+</div>
+<div class="entity" id="http://dbpedia.org/ontology/Manufacturer">
+<h3>manufacturer<sup class="type-ap" title="propiedad de anotación">ap</sup>
+
+</span>
+</h3>
+<p>
+<strong>IRI:</strong> http://dbpedia.org/ontology/Manufacturer</p>
+</div>
+<div class="entity" id="http://schema.org/name">
+<h3>name<sup class="type-ap" title="propiedad de anotación">ap</sup>
+
+</span>
+</h3>
+<p>
+<strong>IRI:</strong> http://schema.org/name</p>
+</div>
+<div class="entity" id="http://sbc.utpl.edu.ec/wines-food-data/price">
+<h3>price<sup class="type-ap" title="propiedad de anotación">ap</sup>
+
+</span>
+</h3>
+<p>
+<strong>IRI:</strong> http://sbc.utpl.edu.ec/wines-food-data/price</p>
+</div>
+<div class="entity" id="http://dbpedia.org/ontology/Province">
+<h3>province<sup class="type-ap" title="propiedad de anotación">ap</sup>
+
+</span>
+</h3>
+<p>
+<strong>IRI:</strong> http://dbpedia.org/ontology/Province</p>
+</div>
+<div class="entity" id="http://dbpedia.org/ontology/Region">
+<h3>region<sup class="type-ap" title="propiedad de anotación">ap</sup>
+</span>
+</h3>
+<p>
+<strong>IRI:</strong> http://dbpedia.org/ontology/Region</p>
+</div>
 </div><div id="legend">
-<h2>Leyenda <span class="backlink"> volver a <a href="#toc">ToC</a></span></h2>
 <div   class="entity">
 </div>
 </div>
@@ -207,13 +207,23 @@ Esta secci&oacute;n introduce m&aacute;s detalles sobre cada clase y propiedad d
     
 
 <!--REFERENCES SECTION-->
-  <div id="references">
-<h2 id="ref" class="list">Referencias <span class="backlink"> volver a <a href="#toc">&iacute;ndice</a></span></h2>
-<span class="markdown">A&ntilde;ade aqu&iacute; tus referencias, a ser posible en una lista.</span>
+<div id="references">
+<h3 id="ns" class="list">Referencias</h3>   
+    <br> *Aguado-De Cea, G., Montiel-Ponsoda, E., Poveda-Villalón, M., and Giraldo-Pasmin, O.X. (2015). Lexicalizing Ontologies: The issues behind the labels. In Multimodal communication in the 21st century: Professional and academic challenges. 33rd Conference of the Spanish Association of Applied Linguistics (AESLA), XXXIII AESLA.
+<br> *Noy, N. F., McGuinness, D. L., et al. (2001). Ontology development 101: A guide to creating your first ontology.
+<br> *Gómez-Pérez, A. (1999). Evaluation of Taxonomic Knowledge in Ontologies and Knowledge Bases. Proceedings of the Banff Knowledge Acquisition for Knowledge-Based Systems Workshop. Alberta, Canada.
+<br> *Montiel-Ponsoda, E., Vila Suero, D., Villazón-Terrazas, B., Dunsire, G., Escolano Rodríguez, E., Gómez-Pérez, A. (2011). Style guidelines for naming and labeling ontologies in the multilingual web.
+<br> *Vrandecic, D. (2010). Ontology Evaluation. PhD thesis.
+<br> *Gómez-Pérez, A. (2004). Ontology evaluation. In Handbook on ontologies, pages 251-273. Springer.
+<br> *Rector, A., Drummond, N., Horridge, M., Rogers, J., Knublauch, H., Stevens, R., Wang, H., and Wroe, C. (2004). Owl pizzas: Practical experience of teaching owl-dl: Common errors & common patterns. In Engineering Knowledge in the Age of the Semantic Web, pages 63-81. Springer.
+<br> *Hogan, A., Harth, A., Passant, A., Decker, S., and Polleres, A. (2010). Weaving the pedantic web. In Proceedings of the WWW2010 Workshop on Linked Data on the Web, LDOW 2010, Raleigh, USA, April 27, 2010.
+<br> *Archer, P., Goedertier, S., and Loutas, N. (2012). D7. 1.3-study on persistent URIs, with identification of best practices and recommendations on the topic for the Mss and the EC. PwC EU Services.
+<br> *Bernes-Lee Tim. (2006). “Linked Data - Design issues”. http://www.w3.org/DesignIssues/LinkedData.html
+<br> *Heath, T. and Bizer, C. (2011). Linked Data: Evolving the Web into a Global Data Space. Morgan & Claypool, 1st edition.
+<br> *Vatant, B. (2012). Is your linked data vocabulary 5-star?. http://bvatant.blogspot.fr/2012/02/is-your-linked-data-vocabulary-5-star_9588.html
 
 </div>
 <div id="acknowledgments">
-<h2 id="ack" class="list">Agradecimientos <span class="backlink"> volver a <a href="#toc">&iacute;ndice</a></span></h2>
 <p>Los autores agradecen a <a href="http://www.essepuntato.it/">Silvio Peroni</a> el desarrollo de <a href="http://www.essepuntato.it/lode">LODE</a>, un entorno de documentaci&oacute;n para OWL que es usado para generar la descripci&oacute;n de t&eacute;rminos de la ontolog&iacute;a de este documento; y a  <a href="http://purl.org/net/dgarijo">Daniel Garijo</a> por desarrollar <a href="https://github.com/dgarijo/Widoco">Widoco</a>, el programa utilizado para producir la plantilla en la que se basa este documento.</p>
 </div>
 
